@@ -1,0 +1,83 @@
+.first{
+    
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    width:500px;
+    height:300px;
+ position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 500px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    color: brown;
+    background-color:#FEFBF3;
+
+
+}
+.schoolno{
+margin-top: 30px;
+}
+.resultbtn{
+    text-shadow: brown;
+   
+    font-size:25px;
+
+}
+.result{
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid bisque;
+    background-color:burlywood;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+.result:hover{
+    background-color:bisque;
+}
+
+.schoolno2{
+    margin-top: 10px;
+}
+.resultthe{
+   
+    margin-left:-250px;
+}
+
+/*   Seond Form  
+
+Start     */
+
+.second{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    width:300px;
+    height:500px;
+ position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+ 
+    border: 2px solid brown;
+    border-radius: 10px;
+    color: brown;
+    background-color:#FEFBF3;
+
+}
+.calbtn{
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid bisque;
+    background-color:burlywood;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+.calbtn:hover{
+    background-color:bisque;
+}
+

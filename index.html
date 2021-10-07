@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="form.js"></script>
+</head>
+<body>
+ 
+
+      <form class="first">
+          <h2>Addition Form For Student </h2>
+          <div class="schoolno">
+              <label>Enter First No. </label>
+              <input type="number" class="number1" id="n1">
+            </div>
+            <div class="schoolno2">
+              <label >Enter Second No.</label>
+              <input type="number" class="number2" id="n2">
+          </div>
+          <div class="resultbtn">
+              <button type="button" class="result" onclick="return calc()">ADD</button>
+          </div>
+          <div class="resultthe">
+              <label>Result:</label>
+              <span id="finalresult">
+                  
+              </span>
+              
+
+          </div>
+      </form>
+
+     <!--<form class="second">
+          <label>ID</label>
+          <input type="text" class="id" id="id1"><br>
+          <br>
+
+          <label>Name</label>
+          <input type="text" class="name" id="name1"><br>
+          <br>
+          <label>Subject 1</label>
+          <input type="number" class="su" id="sub1"><br>
+          <br>
+          <label>Subject 2</label>
+          <input type="number"  class="su2" id="sub2"><br>
+          <br>
+          <label>Subject 3</label>
+          <input type="number" class="su3" id="sub3"><br>
+          <br>
+          <input type="button" value="Calculate" class="calbtn" onclick="return out()">
+          <div class="resultcal">
+              Total
+              <span id ="total">
+              </span><br>
+              <br>
+              Average 
+              <span id="avg">
+
+              </span><br><br>
+              Result
+              <span id="final11">
+                
+
+              </span>%
+
+          </div>
+
+
+      </form>
+      --> 
+      <form>
+        Number 1: <input type="text" name="txt1" id="txt1"><br/>
+        Number 2: <input type="text" name="txt2" id="txt2"><br/>
+        <input type="button" value="ADD" onclick="f1()"><br/>
+        Result : <input type="text" name="txt3" id="txt3">
+  </form>
+  
+  <script>
+      function f1() {
+          //access values
+          var txtn1 = document.getElementById("txt1").value;//Value Get
+          var txtn2 = document.getElementById("txt2").value;//Value Get
+          
+          //value conversion
+          n1 = parseFloat(txtn1);
+          n2 = parseFloat(txtn2);
+  
+          //console.log("First no "+n1+", Second no "+n2);
+          //processing
+          var n3 = sum3(n1, n2); //call the function of 5_Functions.js
+  
+          //output
+          //console.log("Result "+n3);
+          document.getElementById("txt3").value = n3; //Value Set
+      }
+  </script>
+  <script src="form.js"></script>
+      
+    
+  
+ 
+      
+</body>
+</html>
