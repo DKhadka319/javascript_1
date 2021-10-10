@@ -1,0 +1,152 @@
+
+
+/*.line{
+    height: 70px;
+  width: 70px;
+  left: 5%;
+  top: 60%;
+  display: flex;
+  justify-content: space-between;
+  
+  overflow: hidden;
+
+  
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+  
+}
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+.line1{ 
+        width: 2px;
+        background-color: #4dd0e1
+      }
+@keyframes leftBounce {
+        0%, 100% {
+          transform: translateX(0);
+        }
+      
+        50% {
+          transform: translateY(1000px);
+        }
+      }
+3s linear 1s infinite running slidein;
+      
+  */
+
+  
+  
+  .view_port {
+   position:absolute;
+    height: 25px;
+    width: 100%;
+    z-index: -10px;
+  
+  }
+  .cylon_eye {
+      position: relative;
+    background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+    
+    height: 10%;
+    width: 50%;
+  
+            animation: 1s linear 0s infinite running move_eye;
+  }
+  
+
+          @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+ 
+ .view_port1{
+   
+            height: 25px;
+            width: 100%;
+          
+          }
+          .cylon_eye1{
+            background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+            
+            height: 10%;
+            width: 50%;
+          
+           
+                    animation: 1s linear 0s infinite running move_eye1;
+          }
+          
+                  @keyframes move_eye1 { from { margin-left: 50%; } to { margin-left: 100%; }  }
+  .view_port2 {
+   
+                    height: 25px;
+                    width: 100%;
+                  
+                  }
+                  .cylon_eye2{
+                    background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+                    
+                    height: 10%;
+                    width: 70%;
+                
+                            animation: 1s linear 0s infinite running move_eye2;
+                  }
+                  
+                  
+                          @keyframes move_eye2 { from { margin-left: 20%; } to { margin-left: 100%; }  }
+ .view_port4 {
+   
+                            height: 25px;
+                            width: 100%;
+                          
+                          }
+                          .cylon_eye4{
+                            background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+                            
+                            height: 10%;
+                            width: 40%;
+                        
+                                    animation: 1s linear 0s infinite running move_eye4;
+                          }
+                          
+                          
+                                  @keyframes move_eye4 { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+
+ .view_port3 {
+   
+                                    height: 25px;
+                                    width: 100%;
+                                  
+                                  }
+                                  .cylon_eye3{
+                                    background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+                                    
+                                    height: 10%;
+                                    width: 30%;
+                                
+                                            animation: 1s linear 0s infinite running move_eye3;
+                                  }
+                                  
+                                  
+                                          @keyframes move_eye3 { from { margin-left: -50%; } to { margin-left: 100%; }  }
+
+.view_port5 {
+   
+                                            height: 25px;
+                                            width: 100%;
+                                          
+                                          }
+                                          .cylon_eye5{
+                                            background: linear-gradient(#A2D2FF, 10%,#FEF9EF);
+                                            
+                                            height: 10%;
+                                            width: 50%;
+                                        
+                                                    animation: 1s linear 0s infinite running move_eye5;
+                                          }
+                                          
+                                          
+                                                  @keyframes move_eye5 { from { margin-left: 40%; } to { margin-left: 100%; }  }
+    
+                
+          
+        
+  
